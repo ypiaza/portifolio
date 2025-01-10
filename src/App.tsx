@@ -3,15 +3,15 @@ import Skills from "./components/Skills"
 
 const App = () => {
   return (
-    <div className="h-screen grid grid-cols-2 items-center justify-center bg-blue-950">
-      <div className="grid grid-rows-1 h-full ">
-        <div className="h-[50%] flex items-center justify-between">
-          <Perfil />
+    <div className="h-screen grid grid-cols-3 items-center justify-center bg-blue-950">
+      <div className="flex flex-col h-full ">
+        <Perfil />
+        <div className="h-full">
           <Skills />
         </div>
-        <div className="h-[50%] ">
-          sadasdasda
-        </div>
+      </div>
+      <div>
+        a
       </div>
       <div>
         ssss
