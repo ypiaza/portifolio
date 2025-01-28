@@ -1,4 +1,5 @@
 import Perfil from "./components/Perfil"
+import Projects from "./components/Projects"
 import Skills from "./components/Skills"
 
 const App = () => {
@@ -10,8 +11,8 @@ const App = () => {
           <Skills />
         </div>
       </div>
-      <div>
-        a
+      <div className="h-full">
+        <Projects />
       </div>
       <div>
         ssss
