@@ -4,7 +4,7 @@ import Skills from "./components/Skills"
 
 const App = () => {
   return (
-    <div className="h-screen grid grid-cols-3 items-center justify-center bg-blue-950">
+    <div className="h-screen grid grid-cols-3 items-center justify-center bg-gray-900">
       <div className="flex flex-col h-full ">
         <Perfil />
         <div className="h-full">
