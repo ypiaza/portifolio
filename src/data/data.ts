@@ -27,3 +27,16 @@ export const Dados: projects[] = [
         link: '/',
     }
 ]
+
+
+export interface infoPersonal{
+    resume: string,
+    image: string,
+}
+
+export const perfilData: infoPersonal[] = [
+    {
+        resume: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus molestias quisquam, tempore expedita consequuntur dolores quod quia excepturi dicta hic natus eum animi quo quos pariatur commodi? Minus, ratione cumque?',
+        image: '../src/img/me.png',
+    }
+]
