@@ -14,7 +14,7 @@ export const Dados: projects[] = [
     },
     
     {
-        name: 'Projeto 2',
+        name: 'Assistente EVA (projeto báisco)',
         tecnologies: 'React, Js, Tailwind CSS',
         image: 'https://placehold.co/600x400',
         link: '/',
