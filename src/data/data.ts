@@ -36,7 +36,7 @@ export interface infoPersonal{
 
 export const perfilData: infoPersonal[] = [
     {
-        resume: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus molestias quisquam, tempore expedita consequuntur dolores quod quia excepturi dicta hic natus eum animi quo quos pariatur commodi? Minus, ratione cumque?',
-        image: '../src/img/me.png',
+        resume: 'Olá, eu sou Yuri Piaza, tenho 27 anos e sou estudante de Desenvolvimento Web, apaixonado por criar interfaces modernas e funcionais. Trabalho com HTML, CSS, JavaScript, Typescript, React e Tailwind CSS, focando em transformar ideias em experiências digitais atraentes, eficientes e responsivas. Estou sempre em busca de novos desafios para evoluir minhas habilidades em frontend e entregar soluções inovadoras, priorizando a experiência do usuário.',
+        image: '../src/img/me.jpg',
     }
 ]

@@ -18,12 +18,12 @@ const Projects = () => {
                 onMouseOut={() => setEffectProject(null)}
                 >
 
-                    <div className={`h-full flex flex-col justify-center items-start transition-all duration-300 ${effectProject === index ? ' absolute w-full p-8 top-0 flex justify-between text-gray-900 z-20' : ''}`}>
-                        <h2 className={`font-bold text-white ${effectProject === index ? ' text-gray-900 z-20' : ''}`}>{item.name}</h2>
-                        <h3 className={`font-semibold text-[0.80rem] text-white ${effectProject === index ? ' text-gray-900 z-20' : ''}`}>{item.tecnologies}</h3>
+                    <div className={`h-full flex text-white flex-col justify-center items-start transition-all duration-300 ${effectProject === index ? ' absolute w-full p-8 top-0 flex justify-between text-gray-900 z-20' : ''}`}>
+                        <h2 className={`font-bold  ${effectProject === index ? ' text-gray-900 z-20' : ''}`}>{item.name}</h2>
+                        <h3 className={`font-semibold text-[0.80rem] ${effectProject === index ? ' text-gray-900 z-20' : ''}`}>{item.tecnologies}</h3>
                     </div>
 
-                    <div className={` bg-cover bg-center w-full duration-300 ${effectProject === index ? 'absolute h-full bottom-0' : ''}`}
+                    <div className={` bg-cover bg-center w-full duration-300 ${effectProject === index ? 'absolute h-full w-full bottom-0 rounded-none' : ''}`}
                          style={{backgroundImage: `url(${item.image})`}}>
     
                     </div>

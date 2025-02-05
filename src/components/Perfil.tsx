@@ -7,17 +7,16 @@ const Perfil = () => {
 
   return (
     <div className='h-full flex items-center justify-center relative'>
-      {perfilData.map((info: infoPersonal, index: number) => (
-        <div key={index} className="bg-cover bg-center w-full h-full relative"
-        style={{backgroundImage: `url(${info.image})`}} >
+      {perfilData.map((item: infoPersonal) => (
+        <div className='relative bg-cover bg-no-repeat bg-center w-full h-full '
+        style={{
+          backgroundImage: `url(${item.image})`
+        }}>
           <div
-            onMouseOver={() => setResume(true)}
-            onMouseOut={() => setResume(false)}
-            className={`cursor-pointer absolute h-full w-full flex items-center justify-center p-4 duration-300 border-2 border-white/10 ${resume ? 'shadow-2xl shadow-gray-500 border-blue-300 rounded' : ''}`}
-          >
-            <p className={`text-gray-300 font-bold ${resume ? 'flex' : 'hidden'}`}>
-              {info.resume}
-            </p>
+          onMouseOver={() => setResume(true)}
+          onMouseOut={() => setResume(false)}
+          className={`absolute flex items-center justify-center p-6 w-full h-full duration-300 border border-white/10 ${resume ? 'backdrop-blur-2xl shadow-2xl shadow-white/50 border-white/50 bg-white/30' : ''}`}>
+            <h3 className={`text-justify font-medium text-zinc-900 `}>{`${resume ? `${item.resume}` : ''}`}</h3>
           </div>
         </div>
       ))}
