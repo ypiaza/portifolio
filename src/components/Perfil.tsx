@@ -15,7 +15,7 @@ const Perfil = () => {
           <div
           onMouseOver={() => setResume(true)}
           onMouseOut={() => setResume(false)}
-          className={`absolute flex items-center justify-center p-6 w-full h-full duration-300 border border-white/10 ${resume ? 'backdrop-blur-2xl shadow-2xl shadow-white/50 border-white/50 bg-white/30' : ''}`}>
+          className={`absolute flex items-center justify-center px-10 w-full h-full duration-300 border border-white/10 ${resume ? 'backdrop-blur-2xl shadow-2xl shadow-white/50 border-white/50 bg-white/30' : ''}`}>
             <h3 className={`text-justify font-medium text-zinc-900 `}>{`${resume ? `${item.resume}` : ''}`}</h3>
           </div>
         </div>
