@@ -40,3 +40,9 @@ export const perfilData: infoPersonal[] = [
         image: '../src/img/me.jpg',
     }
 ]
+
+export interface contacto{
+    name: string,
+    link: string,
+    icon: string,
+}
