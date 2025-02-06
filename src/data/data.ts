@@ -46,3 +46,8 @@ export interface contacto{
     link: string,
     icon: string,
 }
+
+export interface dataSkill{
+    icon: string,
+    color: string,
+}
