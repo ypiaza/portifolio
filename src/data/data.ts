@@ -41,11 +41,42 @@ export const perfilData: infoPersonal[] = [
     }
 ]
 
-export interface contacto{
+export interface contactInfo{
     name: string,
     link: string,
-    icon: string,
+    icon: React.ElementType,
+    color: string,
 }
+
+import { FaGithub, FaLinkedin, FaWhatsappSquare } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
+
+export const contact: contactInfo[] = [
+    {
+        name: 'Github',
+        link: 'https://github.com/ypiaza',
+        icon: FaGithub,
+        color: '#6E7681'
+    },
+    {
+        name: 'Linkedin',
+        link: 'https://github.com/ypiaza',
+        icon: FaLinkedin,
+        color: '#0077B5'
+    },
+    {
+        name: 'Whatsapp',
+        link: 'https://github.com/ypiaza',
+        icon: FaWhatsappSquare,
+        color: '#25D366'
+    },
+    {
+        name: 'Email',
+        link: 'https://github.com/ypiaza',
+        icon: MdEmail,
+        color: '#6E7681'
+    }
+]
 
 export interface dataSkill{
     icon: string,
