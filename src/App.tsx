@@ -2,7 +2,7 @@ import Contact from "./components/Contact"
 import Perfil from "./components/Perfil"
 import Projects from "./components/Projects"
 import Skills from "./components/Skills"
-import Statistc from "./components/Statistc"
+import SkillsBar from "./components/SkillsBar"
 
 const App = () => {
   return (
@@ -17,8 +17,8 @@ const App = () => {
         <Projects />
       </div>
       <div className="grid grid-cols-1 grid-rows-2 h-full">
+        <SkillsBar />
         <Contact />
-        <Statistc />
       </div>
     </div>
   )
