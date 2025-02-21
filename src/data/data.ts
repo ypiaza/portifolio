@@ -21,7 +21,7 @@ export const Dados: projects[] = [
     },
     
     {
-        name: 'Projeto 2',
+        name: 'Clone Spotify',
         tecnologies: 'React, Js, Tailwind CSS',
         image: 'https://placehold.co/600x400',
         link: '/',
@@ -60,25 +60,21 @@ export const contact: contactInfo[] = [
     },
     {
         name: 'Linkedin',
-        link: 'https://github.com/ypiaza',
+        link: 'https://linkedin.com/in/yuri-piaza-615b6730a',
         icon: FaLinkedin,
         color: '#0077B5'
     },
     {
         name: 'Whatsapp',
-        link: 'https://github.com/ypiaza',
+        link: 'https://wa.me/5579998671726',
         icon: FaWhatsappSquare,
         color: '#25D366'
     },
     {
         name: 'Email',
-        link: 'https://github.com/ypiaza',
+        link: 'yuripiazagomessantos@gmail.com',
         icon: MdEmail,
         color: '#6E7681'
     }
 ]
 
-export interface dataSkill{
-    icon: string,
-    color: string,
-}

@@ -10,7 +10,7 @@ const App = () => {
       <div className="flex flex-col h-full ">
         <Perfil />
         <div className="h-full">
-          <Skills />
+          <Contact />
         </div>
       </div>
       <div className="h-full">
@@ -18,7 +18,7 @@ const App = () => {
       </div>
       <div className="grid grid-cols-1 grid-rows-2 h-full">
         <SkillsBar />
-        <Contact />
+        <Skills />
       </div>
     </div>
   )
